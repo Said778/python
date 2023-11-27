@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'pythonGitApp.apps.PythongitappConfig',
     'pythonGitApp2.apps.Pythongitapp2Config',
     'pythonGitApp4.apps.Pythongitapp4Config',
+    'app',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
