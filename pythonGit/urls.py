@@ -21,5 +21,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-
+    path('', include('pythonGitApp2.urls')),
+    path('two', include('pythonGitApp4.urls'))
 ]
